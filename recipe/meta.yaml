@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - bw2data
-    - bw2io
+    - bw2io <=0.8.7
     - python >=3.5
     - requests
 
