@@ -1,11 +1,11 @@
-About premise_gwp
-=================
+About premise_gwp-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/premise_gwp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/polca/premise_gwp
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/premise_gwp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Import IPCCs GWP100a method, with biogenic CO2 CFs, into Brightway2
 
