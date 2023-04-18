@@ -1,5 +1,5 @@
 {% set name = "premise_gwp" %}
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6ed68f43dc26bb01ae50b3a123487b180bbe51d4fd5afa5d61060f6b57931146
+  sha256: 90436f8e996e6f39b7d92422a21104b530058732cce9ea2d5789b48abd527a6d
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/polca/premise_gwp
-  summary: 'Import IPCCs GWP100a method, with biogenic CO2 CFs, into Brightway2'
+  summary: Import IPCCs GWP100a method, with biogenic CO2 CFs, into Brightway2
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
