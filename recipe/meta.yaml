@@ -1,5 +1,5 @@
 {% set name = "premise_gwp" %}
-{% set version = "0.8" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 90436f8e996e6f39b7d92422a21104b530058732cce9ea2d5789b48abd527a6d
+  sha256: e49374b0ac4e5d513c82f624543d6c5aa9df688a416c24fedccbed0b46a9d43b
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - bw2data
-    - bw2io <=0.8.7
+    - bw2io
     - python >=3.5
     - requests
 
