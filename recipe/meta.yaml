@@ -1,5 +1,5 @@
 {% set name = "premise_gwp" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e49374b0ac4e5d513c82f624543d6c5aa9df688a416c24fedccbed0b46a9d43b
+  sha256: 2cd7a26a65ff2628f595c40185585a4976bd69b5dec2f721952ce3bac98d788c
 
 build:
   noarch: python
