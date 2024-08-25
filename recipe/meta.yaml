@@ -22,7 +22,9 @@ requirements:
   run:
     - bw2data
     - bw2io
+    - numpy <2.0.0
     - python >=3.5
+    - pyyaml
     - requests
 
 test:
