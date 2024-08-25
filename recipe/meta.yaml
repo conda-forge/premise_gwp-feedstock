@@ -1,5 +1,5 @@
 {% set name = "premise_gwp" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7f28256ea8e5103000feadfc79c37963b9337f35b34bd6deb4b29ac94fccfae2
+  sha256: 6e95bd09627ea916c718488e630fcbfa37a2ad3ce951185df7446070042b87b7
 
 build:
   noarch: python
@@ -22,7 +22,9 @@ requirements:
   run:
     - bw2data
     - bw2io
+    - numpy <2.0.0
     - python >=3.5
+    - pyyaml
     - requests
 
 test:
