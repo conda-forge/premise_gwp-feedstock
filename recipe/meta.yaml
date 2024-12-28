@@ -6,28 +6,30 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 6e95bd09627ea916c718488e630fcbfa37a2ad3ce951185df7446070042b87b7
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python {{ python_min }}
     - setuptools
   run:
     - bw2data
     - bw2io
     - numpy <2.0.0
-    - python >=3.5
+    - python >={{ python_min }}
     - pyyaml
     - requests
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - premise_gwp
 
