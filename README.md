@@ -29,7 +29,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-premise_gwp-green.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-premise__gwp-green.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/premise_gwp.svg)](https://anaconda.org/conda-forge/premise_gwp) |
 
 Installing premise_gwp
 ======================
